@@ -21,7 +21,7 @@ def find_meta(meta):
     raise RuntimeError(f"Unable to find __{meta}__ string.")
 
 
-PACKAGE_NAME = "chatbot"
+PACKAGE_NAME = "chatb"
 META_FILE = read(Path(__file__).parent / PACKAGE_NAME / "__init__.py")
 
 setup(
@@ -32,8 +32,8 @@ setup(
     description="Python GPT Chatbot",
     url="https://github.com/DoranTech/chatbot",
     long_description=read("README.md"),
-    packages=["chatbot"],
+    packages=["chatb"],
     install_requires=["openai"],
     python_requires=">=3.12",
-    entry_points={"console_scripts": ["chatbot=chatbot.__main__:main"]},
+    entry_points={"console_scripts": ["chatbot=chatb.__main__:main"]},
 )

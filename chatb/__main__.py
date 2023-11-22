@@ -2,8 +2,8 @@
 
 import sys
 
-from chatbot import __version__ as version
-from chatbot.chatbot_lib import chat_with_gpt
+from chatb import __version__ as version
+from chatb.chatbot_lib import chat_with_gpt
 
 
 def main():

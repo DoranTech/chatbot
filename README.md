@@ -18,12 +18,17 @@ pre-commit install
 How To Use
 --------------------
 
-This package is intended to help understand the true cost of a mortgage. It also can help you easily compare between different mortgages.
+This package is intended to use Chat GPT 3.5 as an API. User needs an account and generating an API key [here](https://platform.openai.com/api-keys) and store it an environment variable named `OPENAI_API_KEY`
 
-Begin by importing the loan class
+```
+OPENAI_API_KEY=aa-b1b1b1b1b1b1
+```
+
+
+Begin by importing the chatb package
 
 ```python
-from finance import balance_sheet
+import chatb
 ```
 
 Testing
