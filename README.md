@@ -1,7 +1,7 @@
 Chatbot using OpenAI
 ====================
 
-This chatbot is design to be embeded into GUIs or other python scripts.
+This chatbot is designed to be embeded into GUIs or other python scripts.
 
 
 ## Development Setup
